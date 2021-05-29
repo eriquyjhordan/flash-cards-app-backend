@@ -3,3 +3,10 @@ Next day: Revisit & Review
 After 3 days: Revisit & Review
 After 1 week: Revisit & Review
 After 2 weeks: Revisit & Review
+
+const cycle = {
+  first: 1,
+  second: 3,
+  tird: 7,
+  after: 14
+}
