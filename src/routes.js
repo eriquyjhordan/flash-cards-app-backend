@@ -1,6 +1,7 @@
 const { Router } = require('express');
 const UserController = require('./Controllers/UserController');
 const SessionController = require('./Controllers/SessionController');
+const WordController = require('./Controllers/WordsController');
 
 const routes = Router();
 
@@ -11,5 +12,7 @@ routes.route('/users/:id')
   .get(UserController.show);
 
 routes.post('/session', SessionController.create);
+
+routes.get('/words/:name', WordController.create);
 
 module.exports = routes;

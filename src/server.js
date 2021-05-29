@@ -7,7 +7,7 @@ const server = express();
 
 server.use(express.json());
 
-const PORT = 3001;
+const PORT = 3333;
 
 server.use(cors());
 server.use(routes);
